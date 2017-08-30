@@ -12,5 +12,5 @@ public class AddTest {
     @Test public void add_test_sum3() {
         assertThat(Calculator.add(2.0, 2.0, 2.0), equalTo(6.0));}
     @Test public void add_test_sum4() {
-        assertThat(Calculator.add(2.0, 2.0, 2.0, 2.0), equalTo(8.0))}
+        assertThat(Calculator.add(2.0, 2.0, 2.0, 2.0), equalTo(8.0));}
 }
